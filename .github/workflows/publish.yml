@@ -1,3 +1,7 @@
+on:
+  push:
+  pull_request:
+
 jobs:
   publish:
     uses: OpenAstronomy/github-actions-workflows/.github/workflows/publish_pure_python.yml@v1
